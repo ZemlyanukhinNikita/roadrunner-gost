@@ -1,0 +1,23 @@
+{
+  "name": "service/gost",
+  "description": "",
+  "keywords": ["roadrunner", "docker", "gost"],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikita",
+      "email": "n.zemlyanukhin@robo.finance"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "nyholm/psr7": "^1.4",
+    "spiral/roadrunner": "2.0.4"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
